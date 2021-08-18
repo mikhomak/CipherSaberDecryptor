@@ -20,6 +20,7 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
+// wharever bruh, remove the include later
 
 using namespace std;
 
@@ -107,8 +108,7 @@ void decrypt(string& message, string& key, int itterations, int iv_length)
 };
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    
+
     string s;
     string message;
     while(cin >> s)
